@@ -1,0 +1,55 @@
+angular and angular JS; we assume its typescript (angular version 2+) not javascript unless we say angular JS; same with react, react JS is specifically for javascript, you can actually use typescript with react as well; also vue? 
+
+google is force behind angular, facebook is force behind react, twitter backs bootstrap
+
+three different categories for above; programming language, library, and framework
+
+three things a browser will be able to read: html, css, javascript; typescript will always be converted to javascript
+
+java gets broken down to bytecode
+
+typescript is going to get "translated" into javascript
+
+jQuery isnt meant to be used by itself, used to make writing JS faster/easier
+
+backend vs frontend framework; i.e. above is front end, node and springboot is backend
+
+Angular: open source web framework developed and maintained by Google; framework - application shell with an opinionated way of developing web applications; versions released approximately every 6 months.
+
+version control - i.e. github, savings versions of your code
+
+open source - something like github that displays/stores code that is accessible to everyone; lots of free code out there, lack of familiarity is the barrier to overcome for developers; cant download material and sell it, illegal for open source material; if code not well maintained could possibly accept poorly coded updates (bad code = not considering security)
+
+js is terrible with dealing with big numbers; bad at large scale; bad with debugging and errors
+
+typescript is typed javascript at any scale; backed by microsoft (like github and npm); more strict than js; like java and js combined
+
+strictly typed languages enable early detection with bugs; typescript allows to scale up (to things like platforms)
+
+typescript has to be compiled down to js in order to run; have to install typescript as a dependecy
+
+npm install -g typescript (have to run command line as admin); tsc -v (for version)
+
+interfaces enforce the "shape" of data; abstract class
+
+interview question: real world example of interfaces (mouse, keyboard, screen??); i have a mouse, it has right click, left click, scroll, etc, certain behaviors i can expect out of the mouse like a method for clicking or scroll (not specifying what it does, just that it must to a thing based on known behavior of thing); mapping actions to certain behaviors
+
+typescript also has classes; defines shape and functionality; properties, methods, and constructor; inheritance is supported; declared with the new() statement 
+
+access modifiers: public, private, etc
+
+functions act a little differently in typescript; by default, all parameters are required; optional parameters are included one of two ways: using ? syntax, specifying a default
+
+overloading is having multiple methods with the same name having multiple things passed to them
+
+overriding is the act of changing the functionality of a method you inherited from another class
+
+(CLI = command line interface)
+
+//COME BACK TO MODULES, ZONED OUT//
+
+angular uses components, under app folder in 
+
+can inject typescript into html with templating? {{}}?
+
+seperation of concerns?
