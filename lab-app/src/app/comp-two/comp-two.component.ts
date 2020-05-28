@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from '../service.service';
 import { Person } from '../person';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-comp-two',
@@ -14,7 +15,7 @@ export class CompTwoComponent implements OnInit {
     // not sure about ngOnInit to get person from service?
   }
 
-  get people(): Person[] {
+  get people(): Observable<Person[]> {
     return this.service.getPerson();
   }
 }
